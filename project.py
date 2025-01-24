@@ -121,7 +121,8 @@ def setup_gui() -> None:
         width=12,
         height=1,
         relief="flat",
-        command=download_video
+        command=download_video,
+        cursor="hand2"
     )
     download_button.place(relx=0.5, rely=0.4, anchor="center")
     download_button.bind("<Enter>", on_enter)
